@@ -2,6 +2,17 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
+   console.log(`
+    _____  _     
+   | ____|(_)    
+   |  _|  | |    
+   | |___ | |    
+   |_____|/ |    
+        |__/      
+  
+   🔧 Crafted with 🖤 by Ej  
+   🔗 github.com/Ejay02
+  `);
   const app = await NestFactory.create(AppModule);
 
   // Use env variable for allowed origins
